@@ -6,10 +6,29 @@
 </head>
 <body>
 
-{% comment %} javascript code {% endcomment %}
+{% comment %} javascript code parse as string{% endcomment %}
         <h1 id="someText"></h1>
+
+        <script>
+            let students = `[
+            {
+                "name": "Awad",
+                "age": 30,
+                "height": 170
+            },
+            {
+                "name": "Qazi",
+                "age": 29,
+                "height": 160
+            }
+
+
+        ]`
         
-        <script src="home.js"></script>
+        console.log("VALUE", JSON.parse(students[0]))
+        </script>
+        
+        {% comment %} <script src="home.js"></script> {% endcomment %}
     
     
 </body>

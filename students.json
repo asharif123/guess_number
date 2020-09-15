@@ -1,0 +1,16 @@
+// javascript notation, used to parse data from APIs
+
+[
+    {
+        "name": "Awad",
+        "age": 30,
+        "height": 170
+    },
+    {
+        "name": "Qazi",
+        "age": 29,
+        "height": 160
+    }
+
+
+]
