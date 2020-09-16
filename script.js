@@ -14,7 +14,7 @@ window.onload = function() {
 }
 
 // // makes it global
-// let numberGuess 
+let numberGuess 
 
 function playGame(){
   numberGuess = document.getElementById("number-guess").value;
