@@ -13,8 +13,9 @@ window.onload = function() {
     document.getElementById("restart-game").addEventListener("click", initGame)
 }
 
-// makes it global
-let numberGuess 
+// // makes it global
+// let numberGuess 
+
 function playGame(){
   numberGuess = document.getElementById("number-guess").value;
   saveGuessHistory(numberGuess)
